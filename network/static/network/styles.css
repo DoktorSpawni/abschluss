@@ -1,0 +1,35 @@
+.form-wrapper {
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+.all-posts {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.1px solid gray;
+    margin: 5px 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    font-size: 0.9rem;
+}
+
+.date {
+    color: gray;
+    font-size: 0.6rem;
+}
+
+.pagination {
+    justify-content: center;
+}
